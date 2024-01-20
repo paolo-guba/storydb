@@ -1,5 +1,5 @@
 """
-ASGI config for story_db project.
+ASGI config for idea_db project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'story_db.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'idea_db.settings')
 
 application = get_asgi_application()
